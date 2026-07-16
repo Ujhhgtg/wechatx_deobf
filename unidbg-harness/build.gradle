@@ -21,8 +21,6 @@ java {
         languageVersion = JavaLanguageVersion.of(21)
     }
 }
-
 run {
-    systemProperty "java.io.tmpdir", "${projectDir}/tmp"
-    systemProperty "java.library.path", "/usr/lib/unidbg"
+    systemProperty "java.library.path", "${projectDir}/natives/linux_64"
 }

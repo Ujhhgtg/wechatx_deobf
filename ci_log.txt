@@ -1,0 +1,301 @@
+decrypt-test	Set up job	﻿2026-07-16T05:26:10.1615080Z Current runner version: '2.335.1'
+decrypt-test	Set up job	2026-07-16T05:26:10.1638688Z ##[group]Runner Image Provisioner
+decrypt-test	Set up job	2026-07-16T05:26:10.1639560Z Hosted Compute Agent
+decrypt-test	Set up job	2026-07-16T05:26:10.1640157Z Version: 20260624.560
+decrypt-test	Set up job	2026-07-16T05:26:10.1640662Z Commit: 925d229a51159bc391ae97e54a2dd1fe20af789d
+decrypt-test	Set up job	2026-07-16T05:26:10.1641224Z Build Date: 2026-06-24T18:26:47Z
+decrypt-test	Set up job	2026-07-16T05:26:10.1641828Z Worker ID: {04ba9417-acce-4e46-bf40-9d0479083ac2}
+decrypt-test	Set up job	2026-07-16T05:26:10.1642406Z Azure Region: westus3
+decrypt-test	Set up job	2026-07-16T05:26:10.1642920Z ##[endgroup]
+decrypt-test	Set up job	2026-07-16T05:26:10.1644081Z ##[group]Operating System
+decrypt-test	Set up job	2026-07-16T05:26:10.1644608Z Ubuntu
+decrypt-test	Set up job	2026-07-16T05:26:10.1645091Z 24.04.4
+decrypt-test	Set up job	2026-07-16T05:26:10.1645511Z LTS
+decrypt-test	Set up job	2026-07-16T05:26:10.1646068Z ##[endgroup]
+decrypt-test	Set up job	2026-07-16T05:26:10.1646569Z ##[group]Runner Image
+decrypt-test	Set up job	2026-07-16T05:26:10.1647048Z Image: ubuntu-24.04
+decrypt-test	Set up job	2026-07-16T05:26:10.1647575Z Version: 20260705.232.1
+decrypt-test	Set up job	2026-07-16T05:26:10.1648417Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260705.232/images/ubuntu/Ubuntu2404-Readme.md
+decrypt-test	Set up job	2026-07-16T05:26:10.1649868Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260705.232
+decrypt-test	Set up job	2026-07-16T05:26:10.1650634Z ##[endgroup]
+decrypt-test	Set up job	2026-07-16T05:26:10.1651567Z ##[group]GITHUB_TOKEN Permissions
+decrypt-test	Set up job	2026-07-16T05:26:10.1653367Z Contents: write
+decrypt-test	Set up job	2026-07-16T05:26:10.1654289Z Metadata: read
+decrypt-test	Set up job	2026-07-16T05:26:10.1654753Z ##[endgroup]
+decrypt-test	Set up job	2026-07-16T05:26:10.1656707Z Secret source: Actions
+decrypt-test	Set up job	2026-07-16T05:26:10.1657568Z Prepare workflow directory
+decrypt-test	Set up job	2026-07-16T05:26:10.1927082Z Prepare all required actions
+decrypt-test	Set up job	2026-07-16T05:26:10.1961567Z Getting action download info
+decrypt-test	Set up job	2026-07-16T05:26:10.5112581Z Download action repository 'actions/checkout@v7' (SHA:9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0)
+decrypt-test	Set up job	2026-07-16T05:26:10.6084494Z Download action repository 'actions/setup-java@v5' (SHA:0f481fcb613427c0f801b606911222b5b6f3083a)
+decrypt-test	Set up job	2026-07-16T05:26:11.7712387Z Download action repository 'astral-sh/setup-uv@v5' (SHA:d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86)
+decrypt-test	Set up job	2026-07-16T05:26:12.7724858Z Download action repository 'actions/upload-artifact@v7' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+decrypt-test	Set up job	2026-07-16T05:26:13.0265627Z Complete job name: decrypt-test
+decrypt-test	Checkout	﻿2026-07-16T05:26:13.0855197Z ##[group]Run actions/checkout@v7
+decrypt-test	Checkout	2026-07-16T05:26:13.0855921Z with:
+decrypt-test	Checkout	2026-07-16T05:26:13.0856139Z   fetch-depth: 0
+decrypt-test	Checkout	2026-07-16T05:26:13.0856375Z   repository: Ujhhgtg/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:13.0858690Z   token: ***
+decrypt-test	Checkout	2026-07-16T05:26:13.0858915Z   ssh-strict: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0859129Z   ssh-user: git
+decrypt-test	Checkout	2026-07-16T05:26:13.0859352Z   persist-credentials: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0859595Z   clean: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0859819Z   sparse-checkout-cone-mode: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0860075Z   fetch-tags: false
+decrypt-test	Checkout	2026-07-16T05:26:13.0860301Z   show-progress: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0860543Z   lfs: false
+decrypt-test	Checkout	2026-07-16T05:26:13.0860745Z   submodules: false
+decrypt-test	Checkout	2026-07-16T05:26:13.0860968Z   set-safe-directory: true
+decrypt-test	Checkout	2026-07-16T05:26:13.0861218Z   allow-unsafe-pr-checkout: false
+decrypt-test	Checkout	2026-07-16T05:26:13.0861625Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.1725138Z Syncing repository: Ujhhgtg/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:13.1726976Z ##[group]Getting Git version info
+decrypt-test	Checkout	2026-07-16T05:26:13.1727378Z Working directory is '/home/runner/work/wechatx_deobf/wechatx_deobf'
+decrypt-test	Checkout	2026-07-16T05:26:13.1728122Z [command]/usr/bin/git version
+decrypt-test	Checkout	2026-07-16T05:26:13.1831189Z git version 2.54.0
+decrypt-test	Checkout	2026-07-16T05:26:13.1850401Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.1860144Z Temporarily overriding HOME='/home/runner/work/_temp/e68e7417-e0c6-4aa6-aa42-21ec5b8ce429' before making global git config changes
+decrypt-test	Checkout	2026-07-16T05:26:13.1861351Z Adding repository directory to the temporary git global config as a safe directory
+decrypt-test	Checkout	2026-07-16T05:26:13.1865159Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wechatx_deobf/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:13.1903195Z Deleting the contents of '/home/runner/work/wechatx_deobf/wechatx_deobf'
+decrypt-test	Checkout	2026-07-16T05:26:13.1904805Z ##[group]Determining repository object format
+decrypt-test	Checkout	2026-07-16T05:26:13.1906393Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.1906942Z ##[group]Initializing the repository
+decrypt-test	Checkout	2026-07-16T05:26:13.1909776Z [command]/usr/bin/git init /home/runner/work/wechatx_deobf/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:13.2648181Z hint: Using 'master' as the name for the initial branch. This default branch name
+decrypt-test	Checkout	2026-07-16T05:26:13.2648857Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+decrypt-test	Checkout	2026-07-16T05:26:13.2649311Z hint: to use in all of your new repositories, which will suppress this warning,
+decrypt-test	Checkout	2026-07-16T05:26:13.2649665Z hint: call:
+decrypt-test	Checkout	2026-07-16T05:26:13.2649862Z hint:
+decrypt-test	Checkout	2026-07-16T05:26:13.2650183Z hint: 	git config --global init.defaultBranch <name>
+decrypt-test	Checkout	2026-07-16T05:26:13.2650635Z hint:
+decrypt-test	Checkout	2026-07-16T05:26:13.2651069Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+decrypt-test	Checkout	2026-07-16T05:26:13.2651771Z hint: 'development'. The just-created branch can be renamed via this command:
+decrypt-test	Checkout	2026-07-16T05:26:13.2652189Z hint:
+decrypt-test	Checkout	2026-07-16T05:26:13.2652491Z hint: 	git branch -m <name>
+decrypt-test	Checkout	2026-07-16T05:26:13.2652843Z hint:
+decrypt-test	Checkout	2026-07-16T05:26:13.2653173Z hint: Disable this message with "git config set advice.defaultBranchName false"
+decrypt-test	Checkout	2026-07-16T05:26:13.2653920Z Initialized empty Git repository in /home/runner/work/wechatx_deobf/wechatx_deobf/.git/
+decrypt-test	Checkout	2026-07-16T05:26:13.2658770Z [command]/usr/bin/git remote add origin https://github.com/Ujhhgtg/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:13.2694761Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.2695280Z ##[group]Disabling automatic garbage collection
+decrypt-test	Checkout	2026-07-16T05:26:13.2698204Z [command]/usr/bin/git config --local gc.auto 0
+decrypt-test	Checkout	2026-07-16T05:26:13.2728804Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.2729336Z ##[group]Setting up auth
+decrypt-test	Checkout	2026-07-16T05:26:13.2729733Z Removing SSH command configuration
+decrypt-test	Checkout	2026-07-16T05:26:13.2734024Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+decrypt-test	Checkout	2026-07-16T05:26:13.2766217Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+decrypt-test	Checkout	2026-07-16T05:26:13.3025185Z Removing HTTP extra header
+decrypt-test	Checkout	2026-07-16T05:26:13.3030323Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+decrypt-test	Checkout	2026-07-16T05:26:13.3062187Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+decrypt-test	Checkout	2026-07-16T05:26:13.3259268Z Removing includeIf entries pointing to credentials config files
+decrypt-test	Checkout	2026-07-16T05:26:13.3263553Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+decrypt-test	Checkout	2026-07-16T05:26:13.3297841Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+decrypt-test	Checkout	2026-07-16T05:26:13.3503530Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+decrypt-test	Checkout	2026-07-16T05:26:13.3550512Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git.path /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Checkout	2026-07-16T05:26:13.3585420Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Checkout	2026-07-16T05:26:13.3618953Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Checkout	2026-07-16T05:26:13.3651263Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Checkout	2026-07-16T05:26:13.3681514Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:13.3682165Z ##[group]Fetching the repository
+decrypt-test	Checkout	2026-07-16T05:26:13.3688749Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+decrypt-test	Checkout	2026-07-16T05:26:14.4142149Z From https://github.com/Ujhhgtg/wechatx_deobf
+decrypt-test	Checkout	2026-07-16T05:26:14.4142794Z  * [new branch]      master     -> origin/master
+decrypt-test	Checkout	2026-07-16T05:26:14.4168502Z [command]/usr/bin/git branch --list --remote origin/master
+decrypt-test	Checkout	2026-07-16T05:26:14.4195949Z   origin/master
+decrypt-test	Checkout	2026-07-16T05:26:14.4204018Z [command]/usr/bin/git rev-parse refs/remotes/origin/master
+decrypt-test	Checkout	2026-07-16T05:26:14.4229831Z c12e37e4c5ee656f16e077408bb7f4422bd9d4f6
+decrypt-test	Checkout	2026-07-16T05:26:14.4238299Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:14.4238644Z ##[group]Determining the checkout info
+decrypt-test	Checkout	2026-07-16T05:26:14.4238995Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:14.4240066Z [command]/usr/bin/git sparse-checkout disable
+decrypt-test	Checkout	2026-07-16T05:26:14.4294458Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+decrypt-test	Checkout	2026-07-16T05:26:14.4314411Z ##[group]Checking out the ref
+decrypt-test	Checkout	2026-07-16T05:26:14.4318097Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+decrypt-test	Checkout	2026-07-16T05:26:14.4504776Z Reset branch 'master'
+decrypt-test	Checkout	2026-07-16T05:26:14.4505963Z branch 'master' set up to track 'origin/master'.
+decrypt-test	Checkout	2026-07-16T05:26:14.4512661Z ##[endgroup]
+decrypt-test	Checkout	2026-07-16T05:26:14.4557070Z [command]/usr/bin/git log -1 --format=%H
+decrypt-test	Checkout	2026-07-16T05:26:14.4586646Z c12e37e4c5ee656f16e077408bb7f4422bd9d4f6
+decrypt-test	Set up JDK 21	﻿2026-07-16T05:26:14.4881028Z ##[group]Run actions/setup-java@v5
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4881296Z with:
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4881465Z   distribution: temurin
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4881653Z   java-version: 21
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4881820Z   cache: gradle
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4881992Z   java-package: jdk
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4882165Z   check-latest: false
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4882354Z   set-default: true
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4882530Z   verify-signature: false
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4882717Z   server-id: github
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4882899Z   server-username: GITHUB_ACTOR
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4883135Z   server-password: GITHUB_TOKEN
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4883388Z   overwrite-settings: true
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4883586Z   job-status: success
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4885667Z   token: ***
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4886002Z   show-download-progress: false
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.4886218Z ##[endgroup]
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6142393Z ##[group]Installed distributions
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6252097Z Resolved Java 21.0.11+10 from tool-cache
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6252537Z Setting Java 21.0.11+10 as the default
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6261672Z Creating toolchains.xml for JDK version 21 from temurin
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6322322Z Writing to /home/runner/.m2/toolchains.xml
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6322701Z 
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6322823Z Java configuration:
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6323088Z   Distribution: temurin
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6323375Z   Version: 21.0.11+10
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6323755Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6324227Z 
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6324702Z ##[endgroup]
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6351374Z Creating settings.xml with server-id: github
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6351897Z Writing to /home/runner/.m2/settings.xml
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.6352774Z Configured MAVEN_ARGS to include -ntp to suppress Maven transfer progress logs. Set 'show-download-progress: true' to keep the download progress output.
+decrypt-test	Set up JDK 21	2026-07-16T05:26:14.8964288Z gradle cache is not found
+decrypt-test	Set up uv	﻿2026-07-16T05:26:14.9141606Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+decrypt-test	Set up uv	2026-07-16T05:26:14.9142671Z ##[group]Run astral-sh/setup-uv@v5
+decrypt-test	Set up uv	2026-07-16T05:26:14.9142888Z with:
+decrypt-test	Set up uv	2026-07-16T05:26:14.9145227Z   github-token: ***
+decrypt-test	Set up uv	2026-07-16T05:26:14.9145418Z   enable-cache: auto
+decrypt-test	Set up uv	2026-07-16T05:26:14.9145649Z   cache-dependency-glob: **/uv.lock
+decrypt-test	Set up uv	**/requirements*.txt
+decrypt-test	Set up uv	
+decrypt-test	Set up uv	2026-07-16T05:26:14.9146075Z   prune-cache: true
+decrypt-test	Set up uv	2026-07-16T05:26:14.9146263Z   ignore-nothing-to-cache: false
+decrypt-test	Set up uv	2026-07-16T05:26:14.9146491Z   ignore-empty-workdir: false
+decrypt-test	Set up uv	2026-07-16T05:26:14.9146682Z env:
+decrypt-test	Set up uv	2026-07-16T05:26:14.9147104Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Set up uv	2026-07-16T05:26:14.9147497Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Set up uv	2026-07-16T05:26:14.9147864Z   MAVEN_ARGS: -ntp
+decrypt-test	Set up uv	2026-07-16T05:26:14.9148037Z ##[endgroup]
+decrypt-test	Set up uv	2026-07-16T05:26:15.0594054Z (node:2133) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+decrypt-test	Set up uv	2026-07-16T05:26:15.0595024Z (Use `node --trace-deprecation ...` to show where the warning was created)
+decrypt-test	Set up uv	2026-07-16T05:26:15.5011099Z Downloading uv from "https://github.com/astral-sh/uv/releases/download/0.11.29/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+decrypt-test	Set up uv	2026-07-16T05:26:15.9442732Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/ce6cb3c2-ff99-48fb-ad1b-8c9a9a87f45f -f /home/runner/work/_temp/80f666f2-647c-4f73-b7bd-09eaae776e2e
+decrypt-test	Set up uv	2026-07-16T05:26:16.6174900Z Added /home/runner/.local/bin to the path
+decrypt-test	Set up uv	2026-07-16T05:26:16.6177286Z Added /opt/hostedtoolcache/uv/0.11.29/x86_64 to the path
+decrypt-test	Set up uv	2026-07-16T05:26:16.6184882Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+decrypt-test	Set up uv	2026-07-16T05:26:16.6185457Z Successfully installed uv version 0.11.29
+decrypt-test	Set up uv	2026-07-16T05:26:16.6186287Z Searching files using cache dependency glob: **/uv.lock,**/requirements*.txt
+decrypt-test	Set up uv	2026-07-16T05:26:16.6410843Z No matches found for glob
+decrypt-test	Set up uv	2026-07-16T05:26:16.6435605Z ##[warning]No file matched to [**/uv.lock,**/requirements*.txt]. The cache will never get invalidated. Make sure you have checked out the target repository and configured the cache-dependency-glob input correctly.
+decrypt-test	Set up uv	2026-07-16T05:26:16.7064970Z Trying to restore uv cache from GitHub Actions cache with key: setup-uv-1-x86_64-unknown-linux-gnu-3.12.3-no-dependency-glob
+decrypt-test	Set up uv	2026-07-16T05:26:16.9291416Z No GitHub Actions cache found for key: setup-uv-1-x86_64-unknown-linux-gnu-3.12.3-no-dependency-glob
+decrypt-test	Make scripts executable	﻿2026-07-16T05:26:16.9420422Z ##[group]Run chmod +x gradlew
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9420750Z ^[[36;1mchmod +x gradlew^[[0m
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9420987Z ^[[36;1mchmod +x tools/postprocess.py^[[0m
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9421219Z ^[[36;1mchmod +x run_deobf.sh^[[0m
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9574543Z shell: /usr/bin/bash -e {0}
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9574809Z env:
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9575081Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9575488Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9575956Z   MAVEN_ARGS: -ntp
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9576167Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+decrypt-test	Make scripts executable	2026-07-16T05:26:16.9576406Z ##[endgroup]
+decrypt-test	Run decryption harness	﻿2026-07-16T05:26:16.9696428Z ##[group]Run ./gradlew -p unidbg-harness run
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9696753Z ^[[36;1m./gradlew -p unidbg-harness run^[[0m
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9724756Z shell: /usr/bin/bash -e {0}
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9724976Z env:
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9725231Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9725625Z   JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.11-10/x64
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9726091Z   MAVEN_ARGS: -ntp
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9726307Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+decrypt-test	Run decryption harness	2026-07-16T05:26:16.9726547Z ##[endgroup]
+decrypt-test	Run decryption harness	2026-07-16T05:26:17.1582259Z Downloading https://services.gradle.org/distributions/gradle-9.3.0-bin.zip
+decrypt-test	Run decryption harness	2026-07-16T05:26:18.4588025Z .............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4483258Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4484218Z Welcome to Gradle 9.3.0!
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4484637Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4485236Z Here are the highlights of this release:
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4490776Z  - Test reporting improvements
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4491370Z  - Error and warning improvements
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4491779Z  - Build authoring improvements
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4492006Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4492253Z For more details see https://docs.gradle.org/9.3.0/release-notes.html
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.4493060Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:19.5458150Z Starting a Gradle Daemon (subsequent builds will be faster)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.6516934Z > Task :compileJava
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.6517685Z > Task :processResources NO-SOURCE
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.6518292Z > Task :classes
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8455975Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8456655Z > Task :run FAILED
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8474851Z WARNING: java.io.tmpdir directory does not exist
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8475459Z [setup] Created _c copy for 5dbc98dcc983a7728bd82d1a47546e (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8476899Z Exception in thread "main" java.lang.ExceptionInInitializerError
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8477992Z 	at com.github.unidbg.arm.backend.UnicornBackend.<init>(UnicornBackend.java:22)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8478997Z 	at com.github.unidbg.arm.backend.BackendFactory.createBackend(BackendFactory.java:38)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8479962Z 	at com.github.unidbg.AbstractEmulator.<init>(AbstractEmulator.java:88)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8480888Z 	at com.github.unidbg.arm.AbstractARM64Emulator.<init>(AbstractARM64Emulator.java:59)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8481929Z 	at com.github.unidbg.linux.android.AndroidARM64Emulator.<init>(AndroidARM64Emulator.java:33)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8483068Z 	at com.github.unidbg.linux.android.AndroidEmulatorBuilder.build(AndroidEmulatorBuilder.java:22)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8484075Z 	at com.github.unidbg.linux.android.AndroidEmulatorBuilder.build(AndroidEmulatorBuilder.java:6)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8484814Z 	at x.DecryptorHarness.run(DecryptorHarness.java:53)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8485367Z 	at x.DecryptorHarness.main(DecryptorHarness.java:1378)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8486298Z Caused by: java.lang.IllegalStateException: java.io.IOException: Couldn't load library library unicorn_java
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8487092Z [setup] Created _c copy for 44c29edb103a2872f519adc9afdaaa (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8487662Z [setup] Created _c copy for 6d6586c9c5458ecfc98981b52ee662de (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8488225Z [setup] Created _c copy for 69691c7bdcc3ce6d5d8a1361f22d4ac (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8488766Z [setup] Created _c copy for 9816b5dfd637d3ce1473a9951b9e05 (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8489293Z [setup] Created _c copy for 62a4e566b714ea1c4349923c9ea6c35 (msgpack payload)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8489867Z 	at unicorn.Unicorn.<clinit>(Unicorn.java:45)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8490287Z 	... 9 more
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8490740Z Caused by: java.io.IOException: Couldn't load library library unicorn_java
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8491430Z 	at org.scijava.nativelib.NativeLoader.loadLibrary(NativeLoader.java:141)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8492004Z 	at unicorn.Unicorn.<clinit>(Unicorn.java:43)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8492907Z 	... 9 more
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8493447Z Caused by: java.lang.UnsatisfiedLinkError: no unicorn_java in java.library.path: /usr/lib/unidbg
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8494187Z 	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2458)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8494792Z 	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:916)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8495356Z 	at java.base/java.lang.System.loadLibrary(System.java:2064)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8496106Z 	at org.scijava.nativelib.NativeLoader.loadLibrary(NativeLoader.java:136)
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.8496647Z 	... 10 more
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9383004Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9385525Z FAILURE: Build failed with an exception.
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9386016Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9386135Z * What went wrong:
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9386447Z Execution failed for task ':run'.
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9387059Z > Process 'command '/usr/lib/jvm/temurin-21-jdk-amd64/bin/java'' finished with non-zero exit value 1
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9387548Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9387637Z * Try:
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9387976Z > Run with --stacktrace option to get the stack trace.
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9388389Z > Run with --info or --debug option to get more log output.
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9388755Z > Run with --scan to get full insights from a Build Scan (powered by Develocity).
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9389106Z > Get more help at https://help.gradle.org.
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9389274Z 
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9389627Z BUILD FAILED in 14s
+decrypt-test	Run decryption harness	2026-07-16T05:26:31.9399475Z 2 actionable tasks: 2 executed
+decrypt-test	Run decryption harness	2026-07-16T05:26:32.2622945Z ##[error]Process completed with exit code 1.
+decrypt-test	Post Set up JDK 21	﻿2026-07-16T05:26:32.2758108Z Post job cleanup.
+decrypt-test	Post Checkout	﻿2026-07-16T05:26:32.3974679Z Post job cleanup.
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4749429Z [command]/usr/bin/git version
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4786230Z git version 2.54.0
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4815032Z Temporarily overriding HOME='/home/runner/work/_temp/499bb221-9279-4c62-8b6a-b235007227d5' before making global git config changes
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4816163Z Adding repository directory to the temporary git global config as a safe directory
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4821416Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wechatx_deobf/wechatx_deobf
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4853972Z Removing SSH command configuration
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4859492Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+decrypt-test	Post Checkout	2026-07-16T05:26:32.4892085Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5104907Z Removing HTTP extra header
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5110019Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5144041Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5372538Z Removing includeIf entries pointing to credentials config files
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5373090Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5398571Z includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5399403Z includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git/worktrees/*.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5400215Z includeif.gitdir:/github/workspace/.git.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5400680Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5407131Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5442293Z /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5452183Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git.path /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5488700Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git/worktrees/*.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5513487Z /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5522427Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/wechatx_deobf/wechatx_deobf/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5556161Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5582979Z /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5587999Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5618827Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5641361Z /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5648408Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5679904Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+decrypt-test	Post Checkout	2026-07-16T05:26:32.5877161Z Removing credentials config '/home/runner/work/_temp/git-credentials-b9f2779c-7aad-4282-aaac-28092866f7a3.config'
+decrypt-test	Complete job	﻿2026-07-16T05:26:32.6005636Z Cleaning up orphan processes
+decrypt-test	Complete job	2026-07-16T05:26:32.6238064Z Terminate orphan process: pid (2204) (java)
+decrypt-test	Complete job	2026-07-16T05:26:32.6246944Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: astral-sh/setup-uv@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
