@@ -908,17 +908,9 @@ public class DecryptorHarness extends AbstractJni {
             System.out.println("  [JNI] new File(" + parent + ", " + child + ")");
             parent = translatePath(parent);
             return dvmClass.newObject(new File(parent, child));
-        }
-        if (signature.equals("java/util/jar/JarFile-><init>(Ljava/lang/String;)V")) {
+        }        if (signature.equals("java/util/jar/JarFile-><init>(Ljava/lang/String;)V")) {
             String path = vaList.getObjectArg(0).getValue().toString();
-            // Redirect base.apk to the WeChatX module APK so JarEntry.getCertificates()
-            // returns the module's own signing cert, enabling correct PBE password derivation.
-            if (path.equals("/data/app/com.tencent.mm/base.apk")) {
-                path = "/home/ujhhgtg/Downloads/X_117_3.0.apk";
-                System.out.println("  [JNI] JarFile: redirecting base.apk → WeChatX module APK");
-            } else {
-                path = translatePath(path);
-            }
+            path = translatePath(path);
             try {
                 return dvmClass.newObject(new java.util.jar.JarFile(path));
             } catch (IOException e) {
