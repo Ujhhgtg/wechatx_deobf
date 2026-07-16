@@ -44,6 +44,8 @@ jobs:
 
             - name: Set up uv
               uses: astral-sh/setup-uv@v5
+              with:
+                enable-cache: false
 
             - name: Make scripts executable
               run: |
